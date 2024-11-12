@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Par ou Ímpar</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Este número é par ou ímpar?</h1>
-    <input type="number" id="numero">
-    <button onclick="verificador()">Verificar</button>
-    <p id="resultado"></p>
+    <h1>Aprovado ou reprovado?</h1>
+    <input type="number" id="nota1" placeholder="Digite a nota 1 aqui" style="text-align: center;">
+    <input type="number" id="nota2" placeholder="Digite a nota 2 aqui" style="text-align: center;">
+    <input type="number" id="nota3" placeholder="Digite a nota 3 aqui" style="text-align: center;">
+    <button onclick="verificar()">Resultado</button>
+    <h2 id="resultado"></h2>
 
     <script src="script.js"></script>
 </body>
